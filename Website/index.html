@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbys</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--Navbar for smaller screen-->
+    <nav class="navbar navbar-expand-lg p-4 none d-none d-lg block d-xl-none">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images-removebg-preview.png" alt="Bootstrap" width="90" height="50">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 d-flex">
+              <div style="display: flex;">
+              <li class="nav-item">
+                <i class="ri-home-7-line"></i>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </div>
+              <li class="nav-item">
+                <a class="nav-link ms-sm-5" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-sm-5" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-sm-5" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-sm-5" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-sm-5" href="#">Plans&Pricing</a>
+              </li>
+
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--Navbar for larger screens-->
+    <nav class="navbar navbar-expand-lg p-4 d-lg none d-xl-block">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images-removebg-preview.png" alt="Bootstrap" width="90" height="50">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 200px;">
+            <ul class="navbar-nav w-100 d-flex justify-content-center">
+              <div style="display: flex;">
+                <li class="nav-item">
+                  
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+              </div>
+              
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Features
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item active" href="#">Reservation and Payments</a></li>
+                  <li><a class="dropdown-item" href="#">SMS and Email Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Takeaways and Ordering</a></li>
+                  <li><a class="dropdown-item" href="#">Ticketing and Vouchera</a></li>
+                  <li><a class="dropdown-item" href="#">Support and Onboarding</a></li>
+                </ul>
+              </div>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">
+                  About
+                </a>
+              </li>
+              
+                <li class="nav-item">
+                  
+                  <a class="nav-link" href="shop.html">
+                    
+                    Shop
+                  </a>
+                </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  
+                  Blog
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-sm-3" href="#">Plans&Pricing</a>
+              </li>
+              <div style="display: flex;">
+              <li class="nav-item">
+                
+                <a class="nav-link ms-sm-3" href="cart.html">
+                  <i class="ri-shopping-cart-2-line"></i>
+                  Cart
+                </a>
+              </li>
+            </div>
+              <div style="margin-left: 100px;">
+                <a href="website-form.html">
+                  <button class="btn-hero" type="button">Sign Up</button>
+                </a>
+                
+              </div>
+                           
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <!--Hero Section Carousel-->
+    <div id="demo" class="carousel-slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+    
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img src="top-view-frame-with-delicious-dish.jpg" alt="Los Angeles" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="salad-2068220_1280.jpg" alt="Chicago" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="spaghetti-1932466_1280.jpg" alt="New York" class="d-block w-100">
+        </div>
+      </div>
+    
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    
+
+
+
+    <!-- <section class="hero-carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide h-100" data-bs-ride="carousel">
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <div>
+              <img src="top-view-frame-with-delicious-dish.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Streamline your reservation process and gain access to over 500,000 diners through the Dineplan guest network.
+              </p>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="spaghetti-1932466_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="salad-2068220_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section> -->
+
+    <!--Hero section 1-->
+    <section class="hero">
+        <div class="container h-100 p-4">
+            <div class="row h-100">
+                <div class="col-lg-5 d-flex align-items-center h-100 p-4">
+                    <div>
+                        <h1>
+                            The restaurant reservation platform that drives growth & efficiency.
+
+                        </h1>
+                        <p>
+                            Streamline your reservation process and gain access to over 500,000 diners through the Dineplan guest network.
+
+                        </p>
+                        <div>
+                          <a href="website-form.html">
+                            <button class="btn-hero" type="button">Get Started</button>
+                          </a>
+                            
+                          </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-7 d-flex justify-content-center">
+                    <img src="food.png" alt="" class="img-fluid" style="height: 500px; width: 800px; padding-bottom: 50px;">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Hero 2-->
+    <section class="hero-2">
+      <div class="container">
+        <div class="row d-flex">
+
+          <div>
+
+            <h2>
+              Order Now
+            </h2>
+          </div>
+            <div class="col-lg-6" style="height: 90vh; background-image: url(salad-2068220_1280.jpg); background-repeat: no-repeat; background-size: cover;">
+              <div style="align-items: center; text-align: left; margin-left: 70px; padding-bottom: 100px; padding-top: 200px; position: absolute;">
+                <h1 style="color: white;">
+                  Western Foods
+                </h1>
+                <p style="color: white; font-size: 18px;">
+                  1000 items
+                </p>
+                <h3 style="color: white; font-size: 25px; letter-spacing: 1px;">
+                  Order Now
+                </h3>
+              </div>
+            
+
+            </div>
+            <div class="col-lg-6" style="height: 90vh;">
+              <div class="row d-flex">
+                <div class="row d-flex">
+                  <div class="col-lg-3" style="height: 45vh; width: 50%; padding: 10px; position: relative;">
+                    <div style="position: relative; background-color: black; height: 100%;">
+                      <img class="active-image" src="Pounded-Yam-with-Egusi-Soup-1-1024x683.jpg" height="100%" width="100%" style="object-fit: cover; opacity: 0.6;">
+                    </div>
+                    <div style="align-items: center; text-align: left; margin-left: 30px; padding-bottom: 100px; position: absolute; bottom: 0;">
+                      <h3 style="color: white;">
+                        Local Foods
+                      </h3>
+                      <p style="color: white;">
+                        250 items
+                      </p>
+                      <h3 style="color: white; font-size: 18px; letter-spacing: 1px;">
+                        Order Now
+                      </h3>
+                    </div>
+                </div>
+              <div class="col-lg-3" style="height: 45vh; width: 50%; padding: 10px; position: relative;">
+                <div style="position: relative; background-color: black; height: 100%;">
+                  <img class="active-image" src="Lasagna-1024x536.webp" height="100%" width="100%" style="object-fit: cover; opacity: 0.6;">
+                </div>
+            <div style="align-items: center; text-align: left; margin-left: 30px; padding-bottom: 100px; position: absolute; bottom: 0;">
+              <h3 style="color: white;">
+                Italian Foods
+              </h3>
+              <p style="color: white;">
+                200 items
+              </p>
+              <h3 style="color: white; font-size: 18px; letter-spacing: 1px;">
+                Order Now
+              </h3>
+            </div>
+              </div>
+              
+              <div class="col-lg-3" style="height: 45vh; width: 50%; padding: 10px; position: relative;">
+                <div style="position: relative; background-color: black; height: 100%;">
+                  <img class="active-image" src="macarons-2548827_1280.jpg" height="100%" width="100%" style="object-fit: cover; opacity: 0.6;">
+                </div>
+            <div style="align-items: center; text-align: left; margin-left: 30px; padding-bottom: 100px; position: absolute; bottom: 0;">
+              <h3 style="color: white;">
+                Desserts
+              </h3>
+              <p style="color: white;">
+                200 items
+              </p>
+              <h3 style="color: white; font-size: 18px; letter-spacing: 1px;">
+                Order Now
+              </h3>
+            </div>
+              </div>
+              
+              <div class="col-lg-3" style="height: 45vh; width: 50%; padding: 10px; position: relative;">
+                <div style="position: relative; background-color: black; height: 100%;">
+                  <img class="active-image" src="butter_samosa-e1503561620296_480x480.webp" height="100%" width="100%" style="object-fit: cover; opacity: 0.6;">
+                </div>
+            <div style="align-items: center; text-align: left; margin-left: 30px; padding-bottom: 100px; position: absolute; bottom: 0;">
+              <h3 style="color: white;">
+                Small Chops
+              </h3>
+              <p style="color: white;">
+                200 items
+              </p>
+              <h3 style="color: white; font-size: 18px; letter-spacing: 1px;">
+                Order Now
+              </h3>
+            </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!--Cards Section-->
+    <section class="cards">
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3>Card 1</h3>
+            <img src="Lasagna-1024x536.webp">
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        
+      </div>
+      
+    </section>
+
+    <section>
+      <div class="about-section">
+        <img src="woman-chef-cooking-vegetables-pan.jpg" alt="Your Image">
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p>Embrace a delightful experience like never before by choosing to patronize me! With a passion for excellence and a commitment to exceeding your expectations,
+             I offer a unique blend of quality, personalized service, and unmatched expertise. Whether you're seeking products, services, or assistance, 
+             I am dedicated to providing you with nothing short of excellence. Your satisfaction is my priority, and I take pride in creating an environment where your needs are not just met, but exceeded.
+              Join the ranks of satisfied patrons who have discovered the difference in choosing me. Your support not only fuels my passion but also ensures that you receive the finest service available. Step into a world where your preferences matter, and let me be your trusted choice for unparalleled quality and satisfaction. Your patronage is not just a transaction; it's the beginning of a lasting relationship built on trust, reliability, and a shared commitment to excellence.
+             Thank you for considering me as your preferred choice – your satisfaction is my success!
+            </p>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <!--
+      <section class="Footer">
+      <div class="About">
+          <div>
+              <h3 style="color: white; margin-bottom: 6px;">
+                  About Us
+              </h3>
+                  <p style="color: white;">
+                      Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit.
+                      Quaerat provident <br> eos 
+                      cumque debitis enim molestias ea dicta <br>doloremque repellendus dignissimos hic.
+                  </p>
+          </div>
+
+          <div style="color: white; margin-left: 150px;">
+              <h3 style="margin-bottom: 6px;">
+                  Features
+              </h3>
+              <ul style="margin-bottom: 3px;">About Us</ul>
+              <ul style="margin-bottom: 3px;">Testimonials</ul>
+              <ul style="margin-bottom: 3px;">Terms of Service</ul>
+              <ul style="margin-bottom: 3px;">Privact</ul>
+              <ul style="margin-bottom: 3px;">Contact Us</ul>
+
+          </div>
+
+
+          <div style="margin-left: 150px;">
+              <div style="height: 30px;">
+                  <h3 style="margin-bottom: 10px; color: white;">Subscribe to Newsletter</h3>
+                  
+              </div>
+              
+                  <input type="search" id="Email" name="Enter Email" placeholder="Enter Email" style="border-radius: 10px; align-items: center;">
+                  <button style="background-color: red; color: white; border-radius: 10px; height: 30px; width: 100px;">
+                      Subscribe
+                  </button>
+                  
+                      <div class="hover-icons">
+                          
+                          <div class="home-sci" style="color: white; margin-top: 10px; text-align: center; margin-right: 6px;">
+                              <a href="#" style="color: white; font-size: 20px;"><i class='bx bxl-facebook'></i></a>
+                              <a href="#" style="color: white; font-size: 20px;"><i class='bx bxl-whatsapp' ></i></a>
+                              <a href="#" style="color: white; font-size: 20px;"><i class='bx bxl-instagram' ></i></a>
+                              <a href="#" style="color: white; font-size: 20px;"><i class='bx bxl-tiktok' ></i></a>
+                              <a href="#" style="color: white; font-size: 20px;"><i class='bx bxl-linkedin' ></i></a>
+                      
+                          </div>
+                      
+  
+
+                      </div>
+
+                       <div class="Bottom" style="margin-right: 200px;">
+                          <p style="color: white;">
+                              Copyright@2023 All Rights Reserved
+                          </p>
+                      </div>
+
+      </div>            
+      
+
+  
+  
+
+ </section>
+ 
+
+    
+
+    -->
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
